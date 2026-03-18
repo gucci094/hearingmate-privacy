@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HearingMate — Privacy Policy / 개인정보처리방침</title>
+  <style>
+    :root {
+      --bg: #f8f9fb;
+      --surface: #ffffff;
+      --primary: #1a6ef5;
+      --primary-light: #e8f0fe;
+      --text: #1c2536;
+      --muted: #6b7a99;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 15px;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+
+    .header-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--primary);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .logo-icon svg { width: 26px; height: 26px; fill: white; }
+
+    .header-text h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .header-text p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .lang-toggle {
+      margin-left: auto;
+      display: flex;
+      gap: 6px;
+    }
+
+    .lang-btn {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--muted);
+      transition: all 0.15s;
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: white;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .effective-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 32px;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 16px;
+    }
+
+    section h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    section h2 .num {
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 700;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 10px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 18px;
+      margin: 8px 0;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    th {
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 600;
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 2px solid var(--border);
+    }
+
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .contact-box {
+      background: var(--primary-light);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 12px;
+    }
+
+    .contact-box p { margin: 0; font-size: 14px; }
+    .contact-box a { color: var(--primary); font-weight: 600; text-decoration: none; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Language visibility */
+    .lang-ko, .lang-en { display: block; }
+    body.show-en .lang-ko { display: none; }
+    body.show-en .lang-en { display: block; }
+    body.show-ko .lang-en { display: none; }
+    body.show-ko .lang-ko { display: block; }
+
+    @media (max-width: 600px) {
+      section { padding: 20px; }
+      .header-inner { flex-wrap: wrap; }
+      table { font-size: 13px; }
+      th, td { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body class="show-ko">
+
+<header>
+  <div class="header-inner">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+      </svg>
+    </div>
+    <div class="header-text">
+      <h1>HearingMate</h1>
+      <p class="lang-ko">개인정보처리방침 · Privacy Policy</p>
+      <p class="lang-en">Privacy Policy · 개인정보처리방침</p>
+    </div>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('ko')">한국어</button>
+      <button class="lang-btn" onclick="setLang('en')">English</button>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- Effective Date -->
+  <div class="effective-date">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+    <span class="lang-ko">시행일: 2026년 3월 18일</span>
+    <span class="lang-en">Effective: March 18, 2026</span>
+  </div>
+
+  <!-- Section 1 -->
+  <section>
+    <h2><span class="num">1</span>
+      <span class="lang-ko">총칙 및 수집하는 정보</span>
+      <span class="lang-en">Overview &amp; Information We Collect</span>
+    </h2>
+    <div class="lang-ko">
+      <p>HearingMate(이하 "앱")는 경도 난청 사용자 및 노년층의 실생활 청취 환경 개선을 목적으로 합니다. 본 방침은 앱이 수집하는 개인정보의 종류, 이용 목적, 보관 기간 및 사용자 권리를 설명합니다.</p>
+      <table>
+        <thead>
+          <tr><th>수집 정보</th><th>수집 시점</th><th>필수 여부</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>청력 테스트 결과</td><td>청력 테스트 실행 시</td><td>선택</td></tr>
+          <tr><td>정밀 위치 정보 (GPS)</td><td>위치 기반 EQ 사용 시</td><td>선택</td></tr>
+          <tr><td>광고 식별자 (GAID)</td><td>앱 실행 시 (광고 동의 후)</td><td>선택</td></tr>
+          <tr><td>구독/결제 상태</td><td>구독 시작·갱신·취소 시</td><td>서비스 이용 시</td></tr>
+          <tr><td>앱 사용 기록</td><td>앱 실행 중</td><td>서비스 운영</td></tr>
+          <tr><td>Firebase 인증 UID</td><td>앱 최초 실행 시</td><td>필수</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:14px; color:#6b7a99;">* 마이크를 통해 입력된 오디오 신호는 기기 내에서 실시간 처리되며, 서버로 전송되거나 저장되지 않습니다.</p>
+    </div>
+    <div class="lang-en">
+      <p>HearingMate ("the App") is designed to improve hearing for people with mild hearing loss and older adults. This policy explains what information we collect, how we use it, how long we keep it, and your rights.</p>
+      <table>
+        <thead>
+          <tr><th>Data Type</th><th>Collected When</th><th>Required</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Hearing test results</td><td>When running a hearing test</td><td>Optional</td></tr>
+          <tr><td>Precise location (GPS)</td><td>When using location-based EQ</td><td>Optional</td></tr>
+          <tr><td>Advertising ID (GAID)</td><td>On app launch (after ad consent)</td><td>Optional</td></tr>
+          <tr><td>Subscription / payment status</td><td>On subscription events</td><td>When using service</td></tr>
+          <tr><td>App usage data</td><td>During app use</td><td>Service operation</td></tr>
+          <tr><td>Firebase Auth UID</td><td>On first launch</td><td>Required</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:14px; color:#6b7a99;">* Audio captured through the microphone is processed in real time on-device and is never transmitted to or stored on any server.</p>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section>
+    <h2><span class="num">2</span>
+      <span class="lang-ko">정보의 이용 목적</span>
+      <span class="lang-en">How We Use Your Information</span>
+    </h2>
+    <div class="lang-ko">
+      <ul>
+        <li><strong>보청 기능 제공:</strong> 마이크 입력을 실시간 DSP 처리하여 청취 보조 기능을 제공합니다.</li>
+        <li><strong>청력 테스트 이력 관리:</strong> 사용자가 시행한 청력 테스트 결과를 저장하고 이력을 제공합니다.</li>
+        <li><strong>위치 기반 자동 EQ:</strong> GPS 위치 정보를 이용하여 현재 환경에 최적화된 EQ 프리셋을 자동 적용합니다.</li>
+        <li><strong>광고 노출:</strong> 무료 사용자에게 보상형 광고를 제공하여 24시간 기능 잠금을 해제합니다.</li>
+        <li><strong>구독 결제 처리:</strong> Google Play를 통한 구독 상태를 관리하고 Premium 기능을 제공합니다.</li>
+        <li><strong>서비스 안정성:</strong> 오류 분석 및 앱 성능 개선에 사용합니다 (Firebase Crashlytics).</li>
+      </ul>
+    </div>
+    <div class="lang-en">
+      <ul>
+        <li><strong>Hearing assistance:</strong> Mic input is processed on-device in real time to provide audio enhancement.</li>
+        <li><strong>Hearing test history:</strong> Saves your hearing test results and shows your history over time.</li>
+        <li><strong>Location-based EQ:</strong> Uses GPS to automatically apply the optimal EQ preset for your environment.</li>
+        <li><strong>Ad delivery:</strong> Shows rewarded ads to free users to unlock 24-hour access to premium features.</li>
+        <li><strong>Subscription management:</strong> Manages subscription status via Google Play and unlocks Premium features.</li>
+        <li><strong>Service stability:</strong> Used for crash analysis and performance improvement (Firebase Crashlytics).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section 3 -->
+  <section>
+    <h2><span class="num">3</span>
+      <span class="lang-ko">제3자 제공 및 위탁</span>
+      <span class="lang-en">Third-Party Sharing &amp; Processors</span>
+    </h2>
+    <div class="lang-ko">
+      <p>앱은 다음 제3자 서비스를 이용합니다. 각 서비스의 개인정보처리방침을 확인하시기 바랍니다.</p>
+      <table>
+        <thead>
+          <tr><th>서비스</th><th>제공 목적</th><th>제공 정보</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Google Firebase</td><td>인증, 데이터 저장, 오류 분석</td><td>UID, 앱 사용 데이터, 오류 로그</td></tr>
+          <tr><td>Google AdMob</td><td>보상형 광고 제공</td><td>광고 식별자(GAID), 기기 정보</td></tr>
+          <tr><td>Google Play Billing</td><td>구독 결제 처리</td><td>구독 상태 (결제 정보는 Google이 직접 처리)</td></tr>
+          <tr><td>RevenueCat</td><td>구독 상태 관리</td><td>Firebase UID, 구독 엔타이틀먼트 정보</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:14px; color:#6b7a99;">위 서비스 외의 제3자에게는 개인정보를 판매하거나 제공하지 않습니다.</p>
+    </div>
+    <div class="lang-en">
+      <p>The App uses the following third-party services. Please review their individual privacy policies.</p>
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Purpose</th><th>Data Shared</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Google Firebase</td><td>Auth, data storage, crash analytics</td><td>UID, app usage data, error logs</td></tr>
+          <tr><td>Google AdMob</td><td>Rewarded ad delivery</td><td>Advertising ID (GAID), device info</td></tr>
+          <tr><td>Google Play Billing</td><td>Subscription payment processing</td><td>Subscription status (payment details handled by Google)</td></tr>
+          <tr><td>RevenueCat</td><td>Subscription entitlement management</td><td>Firebase UID, entitlement data</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:14px; color:#6b7a99;">We do not sell or share your personal information with any third party beyond the services listed above.</p>
+    </div>
+  </section>
+
+  <!-- Section 4 -->
+  <section>
+    <h2><span class="num">4</span>
+      <span class="lang-ko">정보의 보관 기간</span>
+      <span class="lang-en">Data Retention</span>
+    </h2>
+    <div class="lang-ko">
+      <table>
+        <thead>
+          <tr><th>정보 유형</th><th>보관 기간</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>청력 테스트 결과</td><td>서비스 탈퇴 또는 사용자 삭제 요청 시까지</td></tr>
+          <tr><td>위치 정보</td><td>앱 실행 세션 중 임시 사용 후 즉시 삭제</td></tr>
+          <tr><td>구독 상태</td><td>서비스 탈퇴 시까지 (관련 법령 준수)</td></tr>
+          <tr><td>광고 시청 기록</td><td>마지막 광고 시청 후 24시간 (기기 내 저장)</td></tr>
+          <tr><td>Firebase 인증 정보</td><td>계정 삭제 요청 시까지</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="lang-en">
+      <table>
+        <thead>
+          <tr><th>Data Type</th><th>Retention Period</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Hearing test results</td><td>Until account deletion or user request</td></tr>
+          <tr><td>Location data</td><td>Temporarily used during app session; discarded immediately</td></tr>
+          <tr><td>Subscription status</td><td>Until account deletion (as required by law)</td></tr>
+          <tr><td>Ad watch record</td><td>24 hours after last ad view (stored on-device only)</td></tr>
+          <tr><td>Firebase authentication</td><td>Until account deletion request</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Section 5 -->
+  <section>
+    <h2><span class="num">5</span>
+      <span class="lang-ko">사용자의 권리</span>
+      <span class="lang-en">Your Rights</span>
+    </h2>
+    <div class="lang-ko">
+      <p>사용자는 언제든지 다음 권리를 행사할 수 있습니다.</p>
+      <ul>
+        <li><strong>열람 요청:</strong> 수집된 개인정보의 내용 확인</li>
+        <li><strong>정정 요청:</strong> 부정확한 정보의 수정</li>
+        <li><strong>삭제 요청:</strong> 수집된 개인정보의 삭제 (계정 삭제 포함)</li>
+        <li><strong>처리 정지 요청:</strong> 개인정보 처리의 일시 중단</li>
+        <li><strong>동의 철회:</strong> 선택적 수집 정보에 대한 동의 언제든지 철회 가능</li>
+      </ul>
+      <p>권리 행사는 아래 이메일로 요청해 주시면 지체 없이 처리합니다.</p>
+    </div>
+    <div class="lang-en">
+      <p>You have the following rights regarding your personal data at any time:</p>
+      <ul>
+        <li><strong>Access:</strong> Request a copy of your personal data</li>
+        <li><strong>Correction:</strong> Request correction of inaccurate data</li>
+        <li><strong>Deletion:</strong> Request deletion of your data (including account deletion)</li>
+        <li><strong>Restriction:</strong> Request that we temporarily stop processing your data</li>
+        <li><strong>Withdrawal of consent:</strong> Withdraw consent for optional data collection at any time</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at the email below and we will respond promptly.</p>
+    </div>
+  </section>
+
+  <!-- Section 6 -->
+  <section>
+    <h2><span class="num">6</span>
+      <span class="lang-ko">어린이 개인정보 보호</span>
+      <span class="lang-en">Children's Privacy</span>
+    </h2>
+    <div class="lang-ko">
+      <p>본 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다. 만 14세 미만 아동의 정보가 수집된 사실을 인지할 경우 즉시 삭제합니다.</p>
+    </div>
+    <div class="lang-en">
+      <p>HearingMate is not directed at children under 13 (or under 16 in the EU). We do not knowingly collect personal information from children under this age. If we become aware that such data has been collected, we will delete it immediately.</p>
+    </div>
+  </section>
+
+  <!-- Section 7 -->
+  <section>
+    <h2><span class="num">7</span>
+      <span class="lang-ko">방침의 변경</span>
+      <span class="lang-en">Changes to This Policy</span>
+    </h2>
+    <div class="lang-ko">
+      <p>본 개인정보처리방침은 법령 변경 또는 서비스 변경에 따라 개정될 수 있습니다. 변경 시 앱 내 공지 또는 본 페이지를 통해 안내하며, 시행일 7일 전에 사전 고지합니다. 중요한 변경의 경우 30일 전에 고지합니다.</p>
+    </div>
+    <div class="lang-en">
+      <p>This policy may be updated as required by law or service changes. We will notify users through an in-app notice or this page at least 7 days before changes take effect. For material changes, we will provide at least 30 days' advance notice.</p>
+    </div>
+  </section>
+
+  <!-- Section 8 — Contact -->
+  <section>
+    <h2><span class="num">8</span>
+      <span class="lang-ko">개인정보 보호 담당자 및 연락처</span>
+      <span class="lang-en">Data Controller &amp; Contact</span>
+    </h2>
+    <div class="lang-ko">
+      <p>개인정보 처리에 관한 문의, 열람·정정·삭제 요청은 아래로 연락해 주세요.</p>
+      <div class="contact-box">
+        <p><strong>서비스명:</strong> HearingMate</p>
+        <p><strong>이메일:</strong> <a href="mailto:privacy@hearingmate.app">privacy@hearingmate.app</a></p>
+        <p style="margin-top:6px; font-size:13px; color:#6b7a99;">문의 접수 후 영업일 기준 5일 이내 답변드립니다.</p>
+      </div>
+    </div>
+    <div class="lang-en">
+      <p>For questions about this policy or to exercise your rights, please contact us:</p>
+      <div class="contact-box">
+        <p><strong>App:</strong> HearingMate</p>
+        <p><strong>Email:</strong> <a href="mailto:privacy@hearingmate.app">privacy@hearingmate.app</a></p>
+        <p style="margin-top:6px; font-size:13px; color:#6b7a99;">We aim to respond within 5 business days of receiving your request.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <span class="lang-ko">HearingMate 개인정보처리방침 · 최종 업데이트: 2026년 3월 18일</span>
+  <span class="lang-en">HearingMate Privacy Policy · Last updated: March 18, 2026</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.className = 'show-' + lang;
+    document.querySelectorAll('.lang-btn').forEach(function(btn) {
+      btn.classList.remove('active');
+    });
+    event.target.classList.add('active');
+    document.documentElement.lang = lang;
+  }
+</script>
+
+</body>
+</html>
